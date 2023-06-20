@@ -7,9 +7,6 @@
           name="Operations"
           parent="menu_hospital_root"
           sequence="10"/> 
-    <menuitem id="menu_patients"
-          name="Patients"
-          parent="menu_hospital_operations"
-          sequence="10"/> 
+    
 
 </odoo>
