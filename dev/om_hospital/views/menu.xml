@@ -2,5 +2,5 @@
 <odoo>
 <menuitem id="menu_hospital"
           name="Hospital"
-          sequence="15"/> 
+          sequence="10"/> 
 </odoo>
