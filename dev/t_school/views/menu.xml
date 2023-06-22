@@ -15,5 +15,7 @@
     action="action_school_student"
     sequence="3"/>
     
+    <button name="submit_button" string="Submit" type="object" class="oe_highlight"/>
+
 
 </odoo>
