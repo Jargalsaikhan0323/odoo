@@ -21,6 +21,7 @@
                         <field name="Eysh"/>
                         <field name="notes"/>
                         <field name="gender"/>
+                        <button name="action_submit" string="Submit" type="object" class="oe_highlight"/>
                     </group>
                 </sheet>
             </form>
