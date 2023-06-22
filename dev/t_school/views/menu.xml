@@ -5,4 +5,5 @@
         <field name="res_model">school.student</field>
         <field name="view_mode">tree,form</field>
     </record>
+    <menuitem id="school_student_root_menu" name="Cургууль"/>
 </odoo>
