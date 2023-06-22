@@ -3,8 +3,8 @@
     <record id="action_school_student" model="ir.actions.act_window">
         <field name="name">Cурагчид</field>
         <field name="type">ir.actions.act_window</field>
-        <field name="name">school.student</field>
-        <field name="name">tree,form</field>
+        <field name="res_model">school.student</field>
+        <field name="view_mode">tree,form</field>
     </record>
     
     <menuitem id="menu_students"
@@ -13,22 +13,6 @@
     action="action_school_student"
     sequence="3"/>
     
-    <record id="view_school_student_form" model="ir.ui.view">
-        <field name="name">school.student.form</field>
-        <field name="model">school.student</field>
-        <field name="arch" type="xml">
-            <form>
-                <sheet>
-                    <group col="1"> 
-                        <field name="name"/>
-                        <field name="age"/>
-                        <field name="Eysh"/>
-                        <field name="notes"/>
-                        <field name="gender"/>
-                    </group>
-                </sheet>
-            </form>
-        </field>
-    </record>
+
 
 </odoo>
