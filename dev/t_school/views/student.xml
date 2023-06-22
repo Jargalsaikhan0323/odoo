@@ -8,5 +8,23 @@
     </record>
     
     
+    
+    <record id="view_school_student_form" model="ir.ui.view">
+        <field name="name">school.student.form</field>
+        <field name="model">school.student</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group col="1"> 
+                        <field name="name"/>
+                        <field name="age"/>
+                        <field name="Eysh"/>
+                        <field name="notes"/>
+                        <field name="gender"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
 
 </odoo>
