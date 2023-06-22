@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>   
-    <record id="action_dental_doctor" model="ir.actions.act_window">
-        <field name="name">сурагчийн бүртгэл </field>
-        <field name="res_model">school.student</field>
-        <field name="view_mode">tree,form</field>
-    </record>
-    <menuitem id="school_student_root_menu" name="Cургууль"/>
+<odoo>  
+    <menuitem id="menu_school_root"
+    name="Cургууль"
+    sequence="1"/>
+
+    <menuitem id="menu_school_operations"
+    name="Үйл ажилгаа"
+    parent="menu_school_root"
+    sequence="2"/>
+
+    <menuitem id="menu_students"
+    name="Cурагчид"
+    parent= "menu_school_operations"
+    action="action_school_student"
+    sequence="3"/>
 </odoo>
