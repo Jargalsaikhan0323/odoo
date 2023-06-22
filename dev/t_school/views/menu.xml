@@ -9,5 +9,11 @@
     parent="menu_school_root"
     sequence="2"/>
 
+    <menuitem id="menu_students"
+    name="Cурагчид"
+    parent= "menu_school_operations"
+    action="action_school_student"
+    sequence="3"/>
     
+
 </odoo>
