@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-
 <odoo>
     <record id="view_hospital_doctor_form" model="ir.ui.view">
-        <field name="name">Patient.form</field>
+        <field name="name">Patient</field>
         <field name="model">hospital.patient</field>
         <field name="arch" type="xml">
             <form>
