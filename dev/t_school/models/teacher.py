@@ -1,6 +1,6 @@
 from odoo import api, fields, models
 
-class SchoolStudent(models.Model):
+class SchoolTeacher(models.Model):
     _name = "school.teacher"
     _description = "Teacher regist"
 
