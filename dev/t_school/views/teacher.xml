@@ -9,8 +9,8 @@
     
     
     
-    <record id="view_school_student_form" model="ir.ui.view">
-        <field name="name">school.student.form</field>
+    <record id="view_school_teacher_form" model="ir.ui.view">
+        <field name="name">school.teacher.form</field>
         <field name="model">school.teacher</field>
         <field name="arch" type="xml">
             <form>
