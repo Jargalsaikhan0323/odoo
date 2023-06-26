@@ -19,6 +19,6 @@
     name="шинэ багш бүртгэх"
     parent= "menu_school_operations"
     action="action_school_teachers"
-    sequence="3"/>
+    sequence="4"/>
 
 </odoo>
