@@ -18,7 +18,7 @@
     <menuitem id="menu_teachers"
     name="шинэ багш бүртгэх"
     parent= "menu_school_operations"
-    action="action_school_teachers"
+    action="action_school_teacher"
     sequence="4"/>
 
 </odoo>
