@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="action_school_teacher" model="ir.actions.act_window">
+        <field name="name">Багш нар</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">school.teacher</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    
+    
+    
+    <record id="view_school_student_form" model="ir.ui.view">
+        <field name="name">school.student.form</field>
+        <field name="model">school.teacher</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group col="1"> 
+                        <field name="name"/>
+                        <field name="age"/>
+                        <field name="child"/>
+                        <field name="notes"/>
+                        <field name="gender"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+</odoo>
