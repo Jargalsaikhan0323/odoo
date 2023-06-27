@@ -9,3 +9,4 @@ class SchoolStudent(models.Model):
     Eysh = fields.Boolean(string="ЭЕШ өгсөн эсэх")
     notes = fields.Text(string="Тэмдэглэл")
     gender = fields.Selection([('male','Эр'), ('female','Эм')], string="Хүйс")
+    
