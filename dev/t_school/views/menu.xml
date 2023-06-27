@@ -10,13 +10,13 @@
     sequence="2"/>
 
     <menuitem id="menu_students"
-    name="шинэ cурагчид бүртгэх"
+    name="Шинэ cурагчид бүртгэх"
     parent= "menu_school_operations"
     action="action_school_student"
     sequence="3"/>
     
     <menuitem id="menu_teachers"
-    name="шинэ багш бүртгэх"
+    name="Шинэ багш бүртгэх"
     parent= "menu_school_operations"
     action="action_school_teacher"
     sequence="4"/>
